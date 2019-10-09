@@ -1,0 +1,58 @@
+body { font-family: Verdana, sans-serif; font-size: 0.8em; margin: 0px; background: white; }
+
+@font-face{
+    font-family: calculatorfnt;
+    src: url('Calculator.ttf');
+}
+
+nav, section, article {
+    margin: 5px;
+    padding: 8px;
+}
+
+#content {
+    text-align: center;
+}
+
+header, footer {
+    background-color: Red;
+    color: green;
+    padding: 5px;
+    margin: 0;
+}
+
+button {
+    width: 80px;
+    text-align: center;
+    font-size: 60px;
+    background-color: #27ae60;
+    color: #ecf0f1;
+    border: cornflowerblue solid 1px;
+    box-shadow:1px 2px 3px 1px green;
+    text-shadow:1px 1px 3px green;
+    margin: 3px;
+}
+
+input {
+    width: 336px;
+    height: 95px;
+    font-size: 45px;
+    background-color: #0652DD;
+    color: #ecf0f1;
+    border: cornflowerblue solid 1px;
+    text-align: right;
+    box-shadow:1px 2px 3px 1px green;
+    text-shadow:1px 1px 3px blue;
+    margin: 3px;
+    font-family: calculatorfnt;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 5px;
+}
