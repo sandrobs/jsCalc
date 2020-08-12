@@ -1,8 +1,13 @@
-body { font-family: Verdana, sans-serif; font-size: 0.8em; margin: 0px; background: white; }
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 0.8em;
+    margin: 0px;
+    background: #c8d6e5; 
+}
 
 @font-face{
     font-family: calculatorfnt;
-    src: url('Calculator.ttf');
+    src: url("./Calculator.ttf");
 }
 
 nav, section, article {
@@ -15,8 +20,6 @@ nav, section, article {
 }
 
 header, footer {
-    background-color: Red;
-    color: green;
     padding: 5px;
     margin: 0;
 }
@@ -25,26 +28,34 @@ button {
     width: 80px;
     text-align: center;
     font-size: 60px;
-    background-color: #27ae60;
+    background-color: #2e86de;
     color: #ecf0f1;
     border: cornflowerblue solid 1px;
-    box-shadow:1px 2px 3px 1px green;
-    text-shadow:1px 1px 3px green;
+    box-shadow:1px 2px 3px 1px #54a0ff;
+    text-shadow:1px 1px 3px #54a0ff;
     margin: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    border-radius: 0.8rem;
+}
+
+button:hover{
+    background-color: #54a0ff;
 }
 
 input {
     width: 336px;
     height: 95px;
     font-size: 45px;
-    background-color: #0652DD;
+    background-color: #576574;
     color: #ecf0f1;
-    border: cornflowerblue solid 1px;
+    border: #c8d6e5 solid 1px;
     text-align: right;
-    box-shadow:1px 2px 3px 1px green;
-    text-shadow:1px 1px 3px blue;
+    box-shadow:1px 2px 3px 1px #576574;
+    text-shadow:1px 1px 3px #c8d6e5;
     margin: 3px;
     font-family: calculatorfnt;
+    border-radius: 0.8rem;
 }
 
 nav ul {
