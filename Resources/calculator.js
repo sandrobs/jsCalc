@@ -1,7 +1,9 @@
 //cria variaveis de controle
-let isOperador = false;
-let operacao = '';
-let numMemoria1 = 0;
+var isOperador = false;
+var operacao = '';
+var numMemoria1 = 0;
+var numMemoria2 = 0;
+var isEqual = false;
 
 function calculator(){ //cria os elementos da calculadora na DOM
 
