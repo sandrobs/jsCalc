@@ -2,17 +2,12 @@ body {
     font-family: Verdana, sans-serif;
     font-size: 0.8em;
     margin: 0px;
-    background: #c8d6e5; 
+    background: #2bcbba; 
 }
 
 @font-face{
     font-family: calculatorfnt;
     src: url("./Calculator.ttf");
-}
-
-nav, section, article {
-    margin: 5px;
-    padding: 8px;
 }
 
 .container{
@@ -25,11 +20,6 @@ nav, section, article {
 
 #content {
     text-align: center;
-}
-
-header, footer {
-    padding: 5px;
-    margin: 0;
 }
 
 button {
@@ -64,14 +54,4 @@ input {
     margin: 3px;
     font-family: calculatorfnt;
     border-radius: 0.8rem;
-}
-
-nav ul {
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 5px;
 }
